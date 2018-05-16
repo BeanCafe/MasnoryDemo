@@ -7,7 +7,7 @@ build/
 DerivedData/
 
 ## SystemFile
-.DStore
+.DS_tore
 
 ## Various settings
 *.pbxuser
