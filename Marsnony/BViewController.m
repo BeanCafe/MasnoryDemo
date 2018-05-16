@@ -8,7 +8,7 @@
 
 #import "BViewController.h"
 
-#import "Masonry.h"
+#import <Masonry.h>
 
 @interface BViewController ()
 

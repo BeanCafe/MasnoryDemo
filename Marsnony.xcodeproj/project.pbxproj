@@ -7,16 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B45E02DD20AC2D9200C8621A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02C420AC2D9200C8621A /* MASCompositeConstraint.m */; };
-		B45E02DE20AC2D9200C8621A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02C720AC2D9200C8621A /* MASConstraint.m */; };
-		B45E02DF20AC2D9200C8621A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02C920AC2D9200C8621A /* MASConstraintMaker.m */; };
-		B45E02E020AC2D9200C8621A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02CB20AC2D9200C8621A /* MASLayoutConstraint.m */; };
-		B45E02E120AC2D9200C8621A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02CF20AC2D9200C8621A /* MASViewAttribute.m */; };
-		B45E02E220AC2D9200C8621A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02D120AC2D9200C8621A /* MASViewConstraint.m */; };
-		B45E02E320AC2D9200C8621A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02D320AC2D9200C8621A /* NSArray+MASAdditions.m */; };
-		B45E02E420AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02D620AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		B45E02E520AC2D9200C8621A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02D820AC2D9200C8621A /* View+MASAdditions.m */; };
-		B45E02E620AC2D9200C8621A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E02DB20AC2D9200C8621A /* ViewController+MASAdditions.m */; };
+		3AC71E38EE18142D5717C053 /* libPods-MarsnonyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C7509A7C3861BADD3F8CA /* libPods-MarsnonyUITests.a */; };
 		B465450620A93507006ABFC0 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B465450520A93507006ABFC0 /* AViewController.m */; };
 		B465450920A96CB1006ABFC0 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B465450820A96CB1006ABFC0 /* BViewController.m */; };
 		B465450C20A971DA006ABFC0 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B465450B20A971DA006ABFC0 /* CViewController.m */; };
@@ -28,6 +19,8 @@
 		B495E3F21C843D6A00C65A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B495E3F01C843D6A00C65A3D /* LaunchScreen.storyboard */; };
 		B495E3FD1C843D6A00C65A3D /* MarsnonyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B495E3FC1C843D6A00C65A3D /* MarsnonyTests.m */; };
 		B495E4081C843D6A00C65A3D /* MarsnonyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B495E4071C843D6A00C65A3D /* MarsnonyUITests.m */; };
+		C6196400811EA8598D106EAA /* libPods-MarsnonyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1AD5E21226C448E89C5EB3 /* libPods-MarsnonyTests.a */; };
+		CA41C729E3A142F04E718671 /* libPods-Marsnony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91FC1252FCCF27B3FCE023 /* libPods-Marsnony.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,31 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B45E02C320AC2D9200C8621A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		B45E02C420AC2D9200C8621A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B45E02C520AC2D9200C8621A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		B45E02C620AC2D9200C8621A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		B45E02C720AC2D9200C8621A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		B45E02C820AC2D9200C8621A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		B45E02C920AC2D9200C8621A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		B45E02CA20AC2D9200C8621A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		B45E02CB20AC2D9200C8621A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		B45E02CC20AC2D9200C8621A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		B45E02CD20AC2D9200C8621A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		B45E02CE20AC2D9200C8621A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		B45E02CF20AC2D9200C8621A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		B45E02D020AC2D9200C8621A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		B45E02D120AC2D9200C8621A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		B45E02D220AC2D9200C8621A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		B45E02D320AC2D9200C8621A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B45E02D420AC2D9200C8621A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B45E02D520AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		B45E02D620AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		B45E02D720AC2D9200C8621A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		B45E02D820AC2D9200C8621A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		B45E02D920AC2D9200C8621A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B45E02DA20AC2D9200C8621A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		B45E02DB20AC2D9200C8621A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		11B867D25AA0284C15414603 /* Pods-MarsnonyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsnonyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsnonyTests/Pods-MarsnonyTests.release.xcconfig"; sourceTree = "<group>"; };
+		190E55BA16908792FCBA62C0 /* Pods-Marsnony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsnony.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marsnony/Pods-Marsnony.release.xcconfig"; sourceTree = "<group>"; };
+		1F1AD5E21226C448E89C5EB3 /* libPods-MarsnonyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsnonyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375FA6F01503986722B1A201 /* Pods-Marsnony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsnony.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marsnony/Pods-Marsnony.debug.xcconfig"; sourceTree = "<group>"; };
+		3BEBAA368BD9ACEE93A99350 /* Pods-MarsnonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsnonyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsnonyTests/Pods-MarsnonyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A009CC5D91D4E0883F337FA2 /* Pods-MarsnonyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsnonyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsnonyUITests/Pods-MarsnonyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A35CA9A8DD2CA82F4EB9495E /* Pods-MarsnonyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsnonyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsnonyUITests/Pods-MarsnonyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B465450420A93507006ABFC0 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		B465450520A93507006ABFC0 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		B465450720A96CB1006ABFC0 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
@@ -95,6 +70,8 @@
 		B495E4031C843D6A00C65A3D /* MarsnonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsnonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B495E4071C843D6A00C65A3D /* MarsnonyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsnonyUITests.m; sourceTree = "<group>"; };
 		B495E4091C843D6A00C65A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB91FC1252FCCF27B3FCE023 /* libPods-Marsnony.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marsnony.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C7509A7C3861BADD3F8CA /* libPods-MarsnonyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsnonyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA41C729E3A142F04E718671 /* libPods-Marsnony.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6196400811EA8598D106EAA /* libPods-MarsnonyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,42 +95,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC71E38EE18142D5717C053 /* libPods-MarsnonyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B45E02C120AC2D9200C8621A /* Masonry */ = {
+		A35C574E18FC3DC5C16E09C1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B45E02C320AC2D9200C8621A /* MASCompositeConstraint.h */,
-				B45E02C420AC2D9200C8621A /* MASCompositeConstraint.m */,
-				B45E02C520AC2D9200C8621A /* MASConstraint+Private.h */,
-				B45E02C620AC2D9200C8621A /* MASConstraint.h */,
-				B45E02C720AC2D9200C8621A /* MASConstraint.m */,
-				B45E02C820AC2D9200C8621A /* MASConstraintMaker.h */,
-				B45E02C920AC2D9200C8621A /* MASConstraintMaker.m */,
-				B45E02CA20AC2D9200C8621A /* MASLayoutConstraint.h */,
-				B45E02CB20AC2D9200C8621A /* MASLayoutConstraint.m */,
-				B45E02CC20AC2D9200C8621A /* Masonry.h */,
-				B45E02CD20AC2D9200C8621A /* MASUtilities.h */,
-				B45E02CE20AC2D9200C8621A /* MASViewAttribute.h */,
-				B45E02CF20AC2D9200C8621A /* MASViewAttribute.m */,
-				B45E02D020AC2D9200C8621A /* MASViewConstraint.h */,
-				B45E02D120AC2D9200C8621A /* MASViewConstraint.m */,
-				B45E02D220AC2D9200C8621A /* NSArray+MASAdditions.h */,
-				B45E02D320AC2D9200C8621A /* NSArray+MASAdditions.m */,
-				B45E02D420AC2D9200C8621A /* NSArray+MASShorthandAdditions.h */,
-				B45E02D520AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.h */,
-				B45E02D620AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.m */,
-				B45E02D720AC2D9200C8621A /* View+MASAdditions.h */,
-				B45E02D820AC2D9200C8621A /* View+MASAdditions.m */,
-				B45E02D920AC2D9200C8621A /* View+MASShorthandAdditions.h */,
-				B45E02DA20AC2D9200C8621A /* ViewController+MASAdditions.h */,
-				B45E02DB20AC2D9200C8621A /* ViewController+MASAdditions.m */,
+				375FA6F01503986722B1A201 /* Pods-Marsnony.debug.xcconfig */,
+				190E55BA16908792FCBA62C0 /* Pods-Marsnony.release.xcconfig */,
+				3BEBAA368BD9ACEE93A99350 /* Pods-MarsnonyTests.debug.xcconfig */,
+				11B867D25AA0284C15414603 /* Pods-MarsnonyTests.release.xcconfig */,
+				A009CC5D91D4E0883F337FA2 /* Pods-MarsnonyUITests.debug.xcconfig */,
+				A35CA9A8DD2CA82F4EB9495E /* Pods-MarsnonyUITests.release.xcconfig */,
 			);
-			path = Masonry;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B495E3D61C843D6A00C65A3D = {
@@ -161,6 +122,8 @@
 				B495E3FB1C843D6A00C65A3D /* MarsnonyTests */,
 				B495E4061C843D6A00C65A3D /* MarsnonyUITests */,
 				B495E3E01C843D6A00C65A3D /* Products */,
+				A35C574E18FC3DC5C16E09C1 /* Pods */,
+				BF56A0F526C4E79353BDFFF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,7 +140,6 @@
 		B495E3E11C843D6A00C65A3D /* Marsnony */ = {
 			isa = PBXGroup;
 			children = (
-				B45E02C120AC2D9200C8621A /* Masonry */,
 				B495E3E51C843D6A00C65A3D /* AppDelegate.h */,
 				B495E3E61C843D6A00C65A3D /* AppDelegate.m */,
 				B495E3E81C843D6A00C65A3D /* ViewController.h */,
@@ -223,6 +185,16 @@
 			path = MarsnonyUITests;
 			sourceTree = "<group>";
 		};
+		BF56A0F526C4E79353BDFFF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB91FC1252FCCF27B3FCE023 /* libPods-Marsnony.a */,
+				1F1AD5E21226C448E89C5EB3 /* libPods-MarsnonyTests.a */,
+				DC2C7509A7C3861BADD3F8CA /* libPods-MarsnonyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B495E40C1C843D6A00C65A3D /* Build configuration list for PBXNativeTarget "Marsnony" */;
 			buildPhases = (
+				C0B2928701555BDF85C574CA /* [CP] Check Pods Manifest.lock */,
 				B495E3DB1C843D6A00C65A3D /* Sources */,
 				B495E3DC1C843D6A00C65A3D /* Frameworks */,
 				B495E3DD1C843D6A00C65A3D /* Resources */,
@@ -247,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B495E40F1C843D6A00C65A3D /* Build configuration list for PBXNativeTarget "MarsnonyTests" */;
 			buildPhases = (
+				CC681B1D22E0A956B3DCA4AE /* [CP] Check Pods Manifest.lock */,
 				B495E3F41C843D6A00C65A3D /* Sources */,
 				B495E3F51C843D6A00C65A3D /* Frameworks */,
 				B495E3F61C843D6A00C65A3D /* Resources */,
@@ -265,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B495E4121C843D6A00C65A3D /* Build configuration list for PBXNativeTarget "MarsnonyUITests" */;
 			buildPhases = (
+				E408BC98BF357B7297F04425 /* [CP] Check Pods Manifest.lock */,
 				B495E3FF1C843D6A00C65A3D /* Sources */,
 				B495E4001C843D6A00C65A3D /* Frameworks */,
 				B495E4011C843D6A00C65A3D /* Resources */,
@@ -348,24 +323,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0B2928701555BDF85C574CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsnony-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC681B1D22E0A956B3DCA4AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsnonyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E408BC98BF357B7297F04425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsnonyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B495E3DB1C843D6A00C65A3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45E02DE20AC2D9200C8621A /* MASConstraint.m in Sources */,
-				B45E02E120AC2D9200C8621A /* MASViewAttribute.m in Sources */,
-				B45E02E620AC2D9200C8621A /* ViewController+MASAdditions.m in Sources */,
-				B45E02E320AC2D9200C8621A /* NSArray+MASAdditions.m in Sources */,
 				B495E3EA1C843D6A00C65A3D /* ViewController.m in Sources */,
-				B45E02E220AC2D9200C8621A /* MASViewConstraint.m in Sources */,
-				B45E02E020AC2D9200C8621A /* MASLayoutConstraint.m in Sources */,
 				B495E3E71C843D6A00C65A3D /* AppDelegate.m in Sources */,
 				B495E3E41C843D6A00C65A3D /* main.m in Sources */,
-				B45E02E520AC2D9200C8621A /* View+MASAdditions.m in Sources */,
-				B45E02DD20AC2D9200C8621A /* MASCompositeConstraint.m in Sources */,
-				B45E02E420AC2D9200C8621A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				B45E02DF20AC2D9200C8621A /* MASConstraintMaker.m in Sources */,
 				B465450620A93507006ABFC0 /* AViewController.m in Sources */,
 				B465450920A96CB1006ABFC0 /* BViewController.m in Sources */,
 				B465450C20A971DA006ABFC0 /* CViewController.m in Sources */,
@@ -505,6 +527,7 @@
 		};
 		B495E40D1C843D6A00C65A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375FA6F01503986722B1A201 /* Pods-Marsnony.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Marsnony/Info.plist;
@@ -516,6 +539,7 @@
 		};
 		B495E40E1C843D6A00C65A3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190E55BA16908792FCBA62C0 /* Pods-Marsnony.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Marsnony/Info.plist;
@@ -527,6 +551,7 @@
 		};
 		B495E4101C843D6A00C65A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEBAA368BD9ACEE93A99350 /* Pods-MarsnonyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MarsnonyTests/Info.plist;
@@ -539,6 +564,7 @@
 		};
 		B495E4111C843D6A00C65A3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B867D25AA0284C15414603 /* Pods-MarsnonyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MarsnonyTests/Info.plist;
@@ -551,6 +577,7 @@
 		};
 		B495E4131C843D6A00C65A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A009CC5D91D4E0883F337FA2 /* Pods-MarsnonyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MarsnonyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -563,6 +590,7 @@
 		};
 		B495E4141C843D6A00C65A3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35CA9A8DD2CA82F4EB9495E /* Pods-MarsnonyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MarsnonyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

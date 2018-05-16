@@ -8,7 +8,7 @@
 
 #import "CViewController.h"
 
-#import "Masonry.h"
+#import <Masonry.h>
 
 @interface CViewController ()
 @property(strong, nonatomic)UIView *animateView;
